@@ -1,11 +1,11 @@
-eureka:
+ereka:
+  instance:
+    prefer-ip-address: true
   client:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      deafultZone: http://localhost:8761/eureka
-   instance:
-     prefer-ip-address: true
+      defaultZone: http://localhost:8761/eureka
 spring:
   application:
     name: CONFIG-SERVER
